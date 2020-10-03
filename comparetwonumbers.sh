@@ -6,7 +6,7 @@ read -p "Enter y value:" y
 # -eq (==) , -lt (>) , -le (<=) , -ge (>=)
 
 if [ $x -gt $y ]
-then
+then 
     echo "$x is greater than $y";
 elif [ $x -eq $y ]
 then
@@ -15,5 +15,3 @@ else
 
 echo "$x is equal to $y";
 fi
-
- 
